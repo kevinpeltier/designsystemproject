@@ -1,0 +1,235 @@
+/* ----------------------------General---------------------------- */
+
+* {
+    font-size: 1rem;
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+    font-weight: 500;
+    color: #fff;
+}
+
+/* ----------------------------Body---------------------------- */
+
+body {
+    background-image: url(imgs/background-pattern.jpeg);
+}
+
+
+header {
+    display: block;
+    width: 100%;
+    align-content: center;
+    text-align: center;
+    height: 8rem;
+}
+
+header h1 {
+    font-size: 3rem;
+    color: #fff;
+    padding: 1rem 0;
+    font-weight: 900;
+    text-shadow: .25rem .25rem #000;
+}
+
+main {
+    width: 55rem;
+    margin: auto;
+}
+
+
+/* ----------------------------Common For Display---------------------------- */
+
+
+.name-tag {
+    background-color: hsla(0, 100%, 0%, .75);
+    min-width: 10rem;
+    max-width: 15rem;
+    text-align: center;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+}
+
+main h2 {
+    font-size: 1.5rem;
+    color: #fff;
+    padding: .75rem;
+    font-weight: 900;
+}
+
+/* ----------------------------Color Chart---------------------------- */
+
+.color-chart {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: hsla(0, 100%, 0%, .75);
+    padding: 2rem;
+    gap: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    margin-bottom: 2rem;
+}
+
+.color-palette {
+    width: 16rem;
+    height: 7rem;
+    display: flex;
+    text-align: center;
+    border-radius: .25rem;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.color-palette h3 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #000;
+}
+
+.color-palette p {
+    color: #000;
+}
+
+.color-palette:hover {
+    scale: 102%;
+}
+
+.color-palette:nth-child(1) {
+    background-color: hsl(0, 100%, 50%);
+}
+
+.color-palette:nth-child(2) {
+    background-color: hsl(240, 100%, 50%);
+}
+
+.color-palette:nth-child(3) {
+    background-color: hsl(60,100%,50%);
+}
+
+.color-palette:nth-child(4) {
+    background-color: hsl(120,100%,25%);
+}
+
+.color-palette:nth-child(5) {
+    background-color: hsl(300,100%,50%);
+}
+
+/* ----------------------------Font Chart---------------------------- */
+
+.font-chart {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: hsla(0, 100%, 0%, .75);
+    padding: 2rem;
+    gap: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    margin-bottom: 2rem;
+}
+
+.font-display h3 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    padding: .5rem 0;
+}
+
+.font-display:nth-child(2) {
+    font-family:'Exo2';
+}
+
+.font-display:nth-child(3) {
+    font-family:Georgia;
+}
+
+.font-display p:nth-child(3) {
+    font-weight: 700;
+}
+
+.font-display p:nth-child(4) {
+    font-weight: 900;
+}
+
+.font-display:hover {
+    scale: 102%;
+}
+
+
+/* ----------------------------Text Styles---------------------------- */
+
+
+.text-styling {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: hsla(0, 100%, 0%, .75);
+    padding: 2rem;
+    gap: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    margin-bottom: 2rem;
+}
+
+
+.text-styling h3 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    padding: .5rem 0;
+}
+
+.text-display {
+    width: 15rem;
+}
+
+.text-display p {
+    font-style: italic;
+    padding: .5rem 0;
+}
+
+.text-display:hover {
+    scale: 102%;
+}
+
+/* ----------------------------Animations Styles---------------------------- */
+
+
+.ani-requirements {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: hsla(0, 100%, 0%, .75);
+    padding: 2rem;
+    gap: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    margin-bottom: 2rem;
+}
+
+
+.ani-display h3 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    padding: .5rem 0;
+}
+
+.ani-display:hover {
+    scale: 102%;
+}
+
+
+/* ----------------------------Footer---------------------------- */
+
+footer {
+    text-align: center;
+    display: flex;
+    width: 100%;
+    background-color: hsla(0, 100%, 0%, .75);
+    align-content: center;
+    justify-content: center;
+}
+
